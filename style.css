@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+Pinstripe:ital@0;1&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap');
+
+body{
+    background-color: #d7d6d6;
+    font-family:  "Urbanist", sans-serif;
+   
+}
+
+h1{
+    margin-top: 40px;
+    margin-bottom: 85px;
+}
+
+
+.container{
+    
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    background-color: #ffff;
+    width: 330px;
+    height: 700px;
+    padding: 20px;
+    margin-top: 30px;
+    border: solid 3px black;
+   
+}
+
+input{
+    margin-top: 20px;
+    display: block;
+
+    width: 330px;
+    height: 50px;
+    background-color: #f5f5f5;
+    border: solid 2px #dadada;
+    border-radius: 8px;
+}
+
+::placeholder{
+   padding-left: 10px;
+   font-size: 15px;
+}
+
+#password{
+    font-size: 12px;
+    color: #6A707C;
+}
+button{
+    margin-top: 20px;
+    display: block;
+
+    width: 330px;
+    height: 50px;
+
+    font-size: 15px;
+    background-color: #1e232c;
+    color: #ffff;
+    border: none;
+    border-radius: 8px;
+}
+
+hr{
+    width: 80px;
+}
+
+p{
+    font-size: 15px; 
+    color: #6A707C;
+}
+
+.pinto{
+    display: flex; align-items: center; gap: 10px;
+
+    margin-top: 100px;
+}
+
+img{
+    width: 30px;
+    border:solid 1.5px #dadada;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 8px;
+    
+}
+
+a{
+    text-decoration: none;
+
+}
+
+.links{
+    height: 56px;
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+}
+
+#create{
+    text-align: center;
+    margin-top: 4px;
+
+}
+
+button:hover{
+    background-color:  #3f4247;
+}
+
